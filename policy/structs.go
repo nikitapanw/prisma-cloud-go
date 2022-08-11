@@ -77,3 +77,9 @@ type DataCriteria struct {
 	Exposure             string   `json:"exposure,omitempty"`
 	Extension            []string `json:"extension,omitempty"`
 }
+
+type Children struct {
+	Criteria       string `json:"criteria,omitempty"`
+	Type           string `json:"type,omitempty"`
+	Recommendation string `json:"recommendation,omitempty"`
+}
